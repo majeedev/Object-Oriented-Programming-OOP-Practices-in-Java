@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="505.0" prefWidth="685.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="tabelview2024.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="203.0" layoutY="85.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="139.0" text="Save" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TableView fx:id="tabel_student" layoutX="-1.0" layoutY="122.0" prefHeight="350.0" prefWidth="685.0">
+        <columns>
+          <TableColumn fx:id="table_name" prefWidth="227.0" text="Name" />
+          <TableColumn fx:id="table_major" minWidth="0.0" prefWidth="212.0" text="Major" />
+            <TableColumn fx:id="table_semester" prefWidth="245.0" text="Semester" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txfild_name" layoutX="14.0" layoutY="32.0" />
+      <ComboBox fx:id="cb_major" layoutX="178.0" layoutY="32.0" prefWidth="150.0" />
+      <ComboBox fx:id="cb_semester" layoutX="343.0" layoutY="32.0" prefWidth="150.0" />
+      <ComboBox fx:id="cb_studentName" layoutX="509.0" layoutY="32.0" prefWidth="150.0" />
+      <Button fx:id="ViewStudent" layoutX="342.0" layoutY="85.0" mnemonicParsing="false" onAction="#loadStudentNames" prefHeight="25.0" prefWidth="139.0" text="ViewStudent" />
+    </children>
+</AnchorPane>

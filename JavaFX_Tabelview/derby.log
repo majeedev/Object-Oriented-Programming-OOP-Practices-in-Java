@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Sep 17 20:57:32 AST 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0192-0121-e851-000009c7bc50 
+on database directory G:\tableView2024 with class loader sun.misc.Launcher$AppClassLoader@55f96302 
+Loaded from file:/G:/advancedJava/javaLap/tabelview2024/dist/run11065642/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=G:\advancedJava\javaLap\tabelview2024
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

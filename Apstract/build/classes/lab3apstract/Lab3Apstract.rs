@@ -1,0 +1,3 @@
+lab3apstract.Lab3Apstract
+lab3apstract.Camel
+lab3apstract.Animal
